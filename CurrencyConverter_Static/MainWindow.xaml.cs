@@ -42,6 +42,7 @@ namespace CurrencyConverter_Static
             dtCurrency.Rows.Add("SAR", 20);
             dtCurrency.Rows.Add("POUND", 5);
             dtCurrency.Rows.Add("DEM", 43);
+             
 
             cmbFromCurrency.ItemsSource = dtCurrency.DefaultView;
             cmbFromCurrency.DisplayMemberPath = "Text";
